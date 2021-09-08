@@ -5,3 +5,30 @@
 .clock {
   color: red;
 }
+
+.evil_formulario {
+  
+  background: black;
+  color: white;
+  width: 70%;
+  
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 12px;
+ 
+}
+
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(9,1fr);
+  grid-template-rows: repeat(2,1fr);
+
+ align-items: center;
+ justify-content: space-around;
+
+
+}

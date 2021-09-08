@@ -8,6 +8,9 @@ import App2 from './components/eventsReact'
 import CliquerCounter from './components/clickercounter';
 import Conditions from './components/condicionais'
 import APIfetch from './components/API_fetch';
+import API2 from './components/API_fetch2';
+import Formulario from './components/formulario';
+import FormularioPratico from './components/formularioPraticoAula22';
 
 function App() {
 
@@ -38,6 +41,12 @@ return (
     <Conditions />
 
     <APIfetch />
+
+    <API2 />
+
+    <Formulario />
+
+    <FormularioPratico />
  </p>
   
   
